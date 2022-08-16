@@ -8,11 +8,12 @@ namespace RegOnCourses
 {
     internal class PrintMessages
     {
-        public int x;
-        public int y;
-        public string head;
+        private int x;
+        private int y;
+        private string head;
 
-        public PrintMessages(int _x, int _y, string _head) {
+        public PrintMessages(int _x, int _y, string _head)
+        {
             x = _x;
             y = _y;
             head = _head;
