@@ -12,9 +12,9 @@ namespace RegOnCourses
         public string vacancyName;
         public Vacancy(string part, string subPart, int numberVacancies,string vacancyName)
         {
-            this.part = part;
-            this.subPart = subPart;
-            this.numberVacancies = numberVacancies;
+            //this.part = part;
+            //this.subPart = subPart;
+            //this.numberVacancies = numberVacancies;
             this.vacancyName = vacancyName;
         }
 

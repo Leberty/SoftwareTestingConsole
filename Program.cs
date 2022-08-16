@@ -65,12 +65,22 @@
             //Console.ReadLine();
 
             //Пример наследования
-            Vacancy demoIngherit = new Vacancy("Каталог вакансий", "Каталог на карте", 3000, "Рабочий зеленого хозяйства") ;
-            inherit inh = new inherit();
-            inh.part = "ibdf";
-            inh.numberVacancies = 56;
-            demoIngherit.printInfo();
-            demoIngherit.PrintVacancy();
+            //Vacancy demoIngherit = new Vacancy("Каталог вакансий", "Каталог на карте", 3000, "Рабочий зеленого хозяйства") ;
+            //inherit inh = new inherit();
+            //inh.part = "ibdf";
+            //inh.numberVacancies = 56;
+            //demoIngherit.printInfo();
+            //demoIngherit.PrintVacancy();
+
+            Polymorphism overload = new Polymorphism();
+            //overload.DisplayOverload(150);
+            //overload.DisplayOverload("Overload example");
+            //overload.DisplayOverload("Overload example", 300);
+            //overload.DisplayOverload();
+            //overload.Display();
+            overload.DisplayOverload(150);
+            overload.DisplayOverload(150,200);
+            overload.DisplayOverload(150,200,250,300);
             Console.ReadKey();
         } 
     }
